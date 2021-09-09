@@ -1,0 +1,202 @@
+################################################################################
+############################################# Cooperative Multi-Tasking Example 
+################################## Begins ######################################
+################################################################################
+
+cycle:    10 job     1 cpu    10
+cycle:  1010 job     2 cpu  1000
+cycle:  1010 job     1 io     10
+cycle:  1017 job     3 cpu     7
+cycle:  1017 job     2 io      1
+cycle:  1027 job     1 cpu    10
+cycle:  1027 job     3 io      1
+cycle:  1028 job     2 cpu     1
+cycle:  1028 job     1 io      1
+cycle:  1031 job     3 cpu     3
+cycle:  1031 job     2 io      0
+cycle:  1041 job     1 cpu    10
+cycle:  1041 job     3 io      1
+cycle:  1040 job     2 cpu    -1
+cycle:  1040 job     1 io      0
+cycle:  1045 job     3 cpu     5
+cycle:  1045 job     1 io      1
+cycle:  1045 job     2 io      0
+cycle:  1055 job     1 cpu    10
+cycle:  1055 job     3 io      2
+cycle:  1054 job     3 cpu    -1
+cycle:  1054 job     1 io      0
+cycle:  1055 job     1 io     1
+cycle:  1055 job     3 io      2
+cycle:  1065 job     1 cpu    10
+cycle:  1065 job     1 io     0
+cycle:  1075 job     1 cpu    10
+cycle:  1076 job     1 io     1
+cycle:  1086 job     1 cpu    10
+cycle:  1106 job     1 io    20
+cycle:  1105 job     1 cpu    -1
+################################################################################
+############################################# Cooperative Multi-Tasking Example 
+################################## Ends ########################################
+################################################################################
+
+################################################################################
+######################################## Pre-Emptive (50) Multi-Tasking Example 
+################################## Begins ######################################
+################################################################################
+
+cycle:    10 job     1 cpu    10
+cycle:  1010 job     2 cpu  1000
+cycle:  1010 job     1 io     10
+cycle:  1017 job     3 cpu     7
+cycle:  1027 job     1 cpu    10
+cycle:  1027 job     3 io      1
+cycle:  1030 job     3 cpu     3
+cycle:  1030 job     1 io      1
+cycle:  1040 job     1 cpu    10
+cycle:  1040 job     3 io      1
+cycle:  1045 job     3 cpu     5
+cycle:  1045 job     1 io      0
+cycle:  1055 job     1 cpu    10
+cycle:  1055 job     3 io      2
+cycle:  1054 job     3 cpu    -1
+cycle:  1054 job     1 io      0
+cycle:  1055 job     1 io     1
+cycle:  1055 job     3 io      2
+cycle:  1065 job     1 cpu    10
+cycle:  1066 job     2 io     1
+cycle:  1066 job     1 io      0
+cycle:  1076 job     1 cpu    10
+cycle:  2026 job     2 cpu   950
+cycle:  2026 job     1 io      1
+cycle:  2036 job     1 cpu    10
+cycle:  2036 job     2 io     0
+cycle:  2036 job     1 io     20
+cycle:  2936 job     2 cpu   900
+cycle:  2936 job     1 io     20
+cycle:  2935 job     1 cpu    -1
+cycle:  2935 job     2 io     0
+cycle:  2935 job     1 io     20
+cycle:  3785 job     2 cpu   850
+cycle:  3785 job     2 io     0
+cycle:  4585 job     2 cpu   800
+cycle:  4585 job     2 io     0
+cycle:  5335 job     2 cpu   750
+cycle:  5335 job     2 io     0
+cycle:  6035 job     2 cpu   700
+cycle:  6035 job     2 io     0
+cycle:  6685 job     2 cpu   650
+cycle:  6685 job     2 io     0
+cycle:  7285 job     2 cpu   600
+cycle:  7285 job     2 io     0
+cycle:  7835 job     2 cpu   550
+cycle:  7835 job     2 io     0
+cycle:  8335 job     2 cpu   500
+cycle:  8335 job     2 io     0
+cycle:  8785 job     2 cpu   450
+cycle:  8785 job     2 io     0
+cycle:  9185 job     2 cpu   400
+cycle:  9185 job     2 io     0
+cycle:  9535 job     2 cpu   350
+cycle:  9535 job     2 io     0
+cycle:  9835 job     2 cpu   300
+cycle:  9835 job     2 io     0
+cycle: 10085 job     2 cpu   250
+cycle: 10085 job     2 io     0
+cycle: 10285 job     2 cpu   200
+cycle: 10285 job     2 io     0
+cycle: 10435 job     2 cpu   150
+cycle: 10435 job     2 io     0
+cycle: 10535 job     2 cpu   100
+cycle: 10535 job     2 io     0
+cycle: 10585 job     2 cpu    50
+cycle: 10585 job     2 io     0
+cycle: 10586 job     2 cpu     1
+cycle: 10586 job     2 io     0
+cycle: 10585 job     2 cpu    -1
+################################################################################
+######################################## Pre-Emptive (50) Multi-Tasking Example 
+################################## Ends ########################################
+################################################################################
+
+################################################################################
+###################################### Pre-Emptive (1000) Multi-Tasking Example 
+################################## Begins ######################################
+################################################################################
+
+cycle:    10 job     1 cpu    10
+cycle:  1010 job     2 cpu  1000
+cycle:  1010 job     1 io     10
+cycle:  1017 job     3 cpu     7
+cycle:  1017 job     2 io      1
+cycle:  1027 job     1 cpu    10
+cycle:  1027 job     3 io      1
+cycle:  1028 job     2 cpu     1
+cycle:  1028 job     1 io      1
+cycle:  1031 job     3 cpu     3
+cycle:  1031 job     2 io      0
+cycle:  1041 job     1 cpu    10
+cycle:  1041 job     3 io      1
+cycle:  1040 job     2 cpu    -1
+cycle:  1040 job     1 io      0
+cycle:  1045 job     3 cpu     5
+cycle:  1045 job     1 io      1
+cycle:  1045 job     2 io      0
+cycle:  1055 job     1 cpu    10
+cycle:  1055 job     3 io      2
+cycle:  1054 job     3 cpu    -1
+cycle:  1054 job     1 io      0
+cycle:  1055 job     1 io     1
+cycle:  1055 job     3 io      2
+cycle:  1065 job     1 cpu    10
+cycle:  1065 job     1 io     0
+cycle:  1075 job     1 cpu    10
+cycle:  1076 job     1 io     1
+cycle:  1086 job     1 cpu    10
+cycle:  1106 job     1 io    20
+cycle:  1105 job     1 cpu    -1
+################################################################################
+###################################### Pre-Emptive (1000) Multi-Tasking Example 
+################################## Ends ########################################
+################################################################################
+
+################################################################################
+################################################ ADAPTIVE Multi-Tasking Example 
+################################## Begins ######################################
+################################################################################
+
+cycle:    10 job     1 cpu    10
+cycle:  1010 job     2 cpu  1000
+cycle:  1010 job     1 io     10
+cycle:  1017 job     3 cpu     7
+cycle:  1017 job     2 io      1
+cycle:  1027 job     1 cpu    10
+cycle:  1027 job     3 io      1
+cycle:  1028 job     2 cpu     1
+cycle:  1028 job     1 io      1
+cycle:  1031 job     3 cpu     3
+cycle:  1031 job     2 io      0
+cycle:  1041 job     1 cpu    10
+cycle:  1041 job     3 io      1
+cycle:  1040 job     2 cpu    -1
+cycle:  1040 job     1 io      0
+cycle:  1045 job     3 cpu     5
+cycle:  1045 job     1 io      1
+cycle:  1045 job     2 io      0
+cycle:  1055 job     1 cpu    10
+cycle:  1055 job     3 io      2
+cycle:  1054 job     3 cpu    -1
+cycle:  1054 job     1 io      0
+cycle:  1055 job     1 io     1
+cycle:  1055 job     3 io      2
+cycle:  1065 job     1 cpu    10
+cycle:  1065 job     1 io     0
+cycle:  1075 job     1 cpu    10
+cycle:  1076 job     1 io     1
+cycle:  1086 job     1 cpu    10
+cycle:  1106 job     1 io    20
+cycle:  1105 job     1 cpu    -1
+################################################################################
+################################################ ADAPTIVE Multi-Tasking Example 
+################################## Ends ########################################
+################################################################################
+
